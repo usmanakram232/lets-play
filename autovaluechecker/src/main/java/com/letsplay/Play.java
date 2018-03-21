@@ -12,6 +12,7 @@ public abstract class Play {
     return new AutoValue_Play(game, gameId);
   }
 
+
   @Override abstract public boolean equals(@Nullable Object o);
 
 }
