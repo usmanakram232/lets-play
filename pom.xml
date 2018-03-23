@@ -9,6 +9,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>autovaluechecker</module>
+    <module>porjecteuler</module>
   </modules>
   <groupId>com.play</groupId>
     <version>1.0-SNAPSHOT</version>
