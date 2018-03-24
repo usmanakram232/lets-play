@@ -2,7 +2,6 @@ package com.projecteuler;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -33,7 +32,7 @@ public class MultipleOf3Or5Test {
   @Test
   void teatBasic() {
     System.out.println(
-        IntStream.iterate(1, i -> i+1).limit(999)
+        IntStream.range(1, 1000)
             .filter(num -> num % 3 == 0 || num % 5 == 0)
             .sum()
     );
